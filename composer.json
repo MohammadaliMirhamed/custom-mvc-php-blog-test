@@ -1,0 +1,21 @@
+{
+    "name": "check24/blog",
+    "description": "a test blog for check24",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadAli Mirhamed",
+            "email": "mamalirooy@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "illuminate/database": "^9.21"
+    }
+}

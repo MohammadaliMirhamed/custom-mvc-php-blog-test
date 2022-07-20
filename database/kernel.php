@@ -6,9 +6,9 @@ $capsule = new Capsule;
 $capsule->addConnection([
    "driver" => "mysql",
    "host" =>"127.0.0.1",
-   "database" => "acl",
+   "database" => "check24",
    "username" => "root",
-   "password" => ""
+   "password" => "password"
 ]);
 $capsule->setAsGlobal();
 $capsule->bootEloquent();

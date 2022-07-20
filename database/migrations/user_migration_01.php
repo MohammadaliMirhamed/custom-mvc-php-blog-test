@@ -1,6 +1,7 @@
 <?php
 
-require "Kernel.php";
+require_once '../../vendor/autoload.php';
+require_once '../kernel.php';
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
+use App\Models\Post;
+
 class BlogController
 {
     public function index()
     {
-        echo 'Hello World!';
+        var_dump(Post::all());
     }
 }

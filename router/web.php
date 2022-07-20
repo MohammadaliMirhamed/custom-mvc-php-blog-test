@@ -6,7 +6,7 @@ use App\Controllers\BlogController;
 // Create Router instance
 $router = new Router();
 
-$router->get('/', '\App\Controllers\BlogController@index');
+$router->post('/', '\App\Controllers\BlogController@index');
 
 // Run it!
 $router->run();
